@@ -1,31 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Aref Ruqaa Ink', serif;
     min-width: 400px;
+    background-color: linear-gradient(180deg, black, grey);
 }
 
 input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid #2767cf;
     margin-bottom: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 7px #2767cf;
+    font-family: 'Aref Ruqaa Ink', serif;
+    text-align: center;
+    line-height: 1.5;
 }
 
 button {
-    background: #5f9341;
-    color: white;
+    background: #2767cf;
+    color: black;
     padding: 10px 20px;
-    border: 1px solid #5f9341;
+    border: 1px solid #2767cf;
+    border-radius: 5px;
     font-weight: bold;
     margin: 10px 30px;
     display: block;
+    box-shadow: 0 0 7px #2767cf;
+    font-family: 'Aref Ruqaa Ink', serif;
+    text-align: center;
+    line-height: 1.5;
 }
 
 #delete-btn {
-    background: white;
-    color: #5f9341;
+    border: none;
+    background: rgb(134, 78, 78);
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 7px rgb(134, 78, 78);
+    font-family: 'Aref Ruqaa Ink', serif;
+    text-align: center;
+    line-height: 1.5;
 }
 
 ul {
